@@ -27,5 +27,10 @@ const passw = `${userName}${userCognome}${userFavColor}${lastPasswordPart}`;
 
 //OUTPUT ALL'UTENTE
 
-const userMessage = "La tua password è: " + passw;
+/* const userMessage = "La tua password è: " + passw;
+document.getElementById("messaggio").innerHTML = userMessage; */
+
+//alternativa con backticks e andare a capo:
+const userMessage = `La tua password è:
+${passw}`;
 document.getElementById("messaggio").innerHTML = userMessage;
