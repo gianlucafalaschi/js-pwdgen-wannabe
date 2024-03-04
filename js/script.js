@@ -6,7 +6,7 @@ Infine scrivi sulla pagina nomecognomecolorepreferito23 */
 // AQUISIZIONE E PREPARAZIONE DATI
 // ci servono:
 // costante  
-const lastPasswordPart = 23;
+const lastPasswordPart = "23";
 console.log(lastPasswordPart);
 //nome utente
 const userName = prompt("Qual'è il tuo nome?");
