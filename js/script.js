@@ -19,9 +19,11 @@ const userFavColor = prompt("Qual'è il tuo colore preferito?");
 console.log(userFavColor);
 // LOGICA DELLA MIA APPLICAZIONE
 //concateno nome + cognome + colore preferito + lastPasswordPart
-const passw = userName + userCognome + userFavColor + lastPasswordPart;
-console.log(passw);
+/* const passw = userName + userCognome + userFavColor + lastPasswordPart;
+console.log(passw); */
 
+//uso backticks
+const passw = `${userName}${userCognome}${userFavColor}${lastPasswordPart}`;
 
 //OUTPUT ALL'UTENTE
 
