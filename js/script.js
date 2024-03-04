@@ -6,6 +6,7 @@ Infine scrivi sulla pagina nomecognomecolorepreferito23 */
 // AQUISIZIONE E PREPARAZIONE DATI
 // ci servono:
 // costante  
+
 const lastPasswordPart = 23;
 const lastPasswordPartAsNumber = parseInt(lastPasswordPart);
 //nome utente
@@ -43,3 +44,5 @@ document.getElementById("messaggio").innerHTML = userMessage; */
 const userMessage = `La tua password è:
 ${passwLow}`;
 document.getElementById("messaggio").innerHTML = userMessage;
+
+
