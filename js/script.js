@@ -6,7 +6,7 @@ Infine scrivi sulla pagina nomecognomecolorepreferito23 */
 // AQUISIZIONE E PREPARAZIONE DATI
 // ci servono:
 // costante  
-const lastPasswordPart = "23";
+const lastPasswordPart = 23;
 console.log(lastPasswordPart);
 //nome utente
 const userName = prompt("Qual'è il tuo nome?");
@@ -25,12 +25,17 @@ console.log(passw); */
 //uso backticks
 const passw = `${userName}${userCognome}${userFavColor}${lastPasswordPart}`;
 
+// metto la costante password in lowercase
+const passwLow = passw.toLowerCase();
+console.log(passwLow);
+
 //OUTPUT ALL'UTENTE
 
 /* const userMessage = "La tua password è: " + passw;
 document.getElementById("messaggio").innerHTML = userMessage; */
 
+
 //alternativa con backticks e andare a capo:
 const userMessage = `La tua password è:
-${passw}`;
+${passwLow}`;
 document.getElementById("messaggio").innerHTML = userMessage;
